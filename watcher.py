@@ -1,13 +1,9 @@
 # Github repo watcher - Skip the Dishes DevOps challenge
-# You need to setup ~/aws/config with the contents below:
-# [default]
-# region = sa-east-1
-# You also need ~/aws/credentials:
-# [default]
-# aws_access_key_id = AKIAJZ4VC7Y2V6LMQSXA
-# aws_secret_access_key = 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
-# Feel free to use the credentials above to run the tests, they're from a temporary AWS account that i created
-# to use during the event
+# You need to setup ~/aws/config, the contents are available on the Vanhack project description
+# You also need ~/aws/credentials (details available on the project description as well)
+# The API key available on the last commit was revoked, to avoid people stopping or modifying the test application,
+# which was the only the permissions given to that credential
+
 
 # Missing stuff to implement:
 # - Daemonize the watcher
